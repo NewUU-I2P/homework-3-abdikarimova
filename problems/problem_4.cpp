@@ -1,7 +1,7 @@
 #include <string>
 #include <sstream>
 
-std::string problemSolution4(const std::string &macAddress) {
+std::string problemSolution4(const std::string macAddress) {
     string result;
     if ((macAddress[1]) % 2 == 0) {
         result = "unicast";
