@@ -1,6 +1,15 @@
 float problemSolution5(float x, float y, char operation) {
    float result;
-   // write your code here
+   if (operation = '+') {
+      cout<<x+y;
+   } else if(operation = '-'){
+      cout << x - y;
+   } else if (operation = '*') {
+      cout << x*y;
+   } else if (operation = '/') {
+      cout << x/y;
+   }
+
 
    return result;
 }
