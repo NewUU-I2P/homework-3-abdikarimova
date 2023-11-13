@@ -2,11 +2,13 @@
 #include <sstream>
 
 std::string problemSolution4(const std::string &macAddress) {
+    string result;
     if ((macAddress[1]) % 2 == 0) {
-        cout << "unicast" << endl;
+        result = "unicast";
     } else if ((macAddress[1]) % 2 == 1) {
-        cout << "multicast" << endl;
+        result = "multicast";
     } else {
-        cout << "broadcast" << endl;
+        result = "broadcast";
     }
+    return result;
 }

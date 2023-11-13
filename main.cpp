@@ -17,6 +17,6 @@ int main() {
     cout << "Problem 4\n";
     problemSolution4("18:20:A3:22:F5");
     cout << "Problem 5\n";
-    problemSolution5(1, '+', 2);
+    problemSolution5(1, 2, '+');
     return 0;
 }
