@@ -1,4 +1,4 @@
-float problemSolution1(float consumed_water) {
+int problemSolution1(float consumed_water) {
     float cost;
         if (consumed_water > 60) {
             cost = (13 + 30*0.4 + 20*0.12 + 10*1.4 + (consumed_water-60)*1.5);
@@ -9,5 +9,5 @@ float problemSolution1(float consumed_water) {
         } else 
             cost = 13 + consumed_water*0.5;
 
-    return cost;
+        return cost;
 } 
