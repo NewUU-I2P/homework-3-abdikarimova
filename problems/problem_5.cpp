@@ -1,12 +1,12 @@
 float problemSolution5(float x, float y, char operation) {
    float result;
-   if (operation = '+') {
+   if (operation == '+') {
       result = x+y;
-   } else if(operation = '-'){
+   } else if(operation == '-'){
       result = x - y;
-   } else if (operation = '*') {
+   } else if (operation == '*') {
       result = x*y;
-   } else if (operation = '/') {
+   } else if (operation == '/') {
       result = x/y;
    }
 

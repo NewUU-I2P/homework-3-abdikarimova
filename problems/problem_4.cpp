@@ -2,7 +2,7 @@
 #include <sstream>
 
 std::string problemSolution4(const std::string macAddress) {
-    string result;
+    std::string result;
     if ((macAddress[1]) % 2 == 0) {
         result = "unicast";
     } else if ((macAddress[1]) % 2 == 1) {
