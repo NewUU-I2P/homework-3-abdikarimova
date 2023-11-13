@@ -10,4 +10,4 @@ void problemSolution1(float consumed_water) {
             cost = 13 + consumed_water*0.5;
 
     return cost;
-}
+} 
