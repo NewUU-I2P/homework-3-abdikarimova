@@ -7,14 +7,14 @@ std::string problemSolution3(float height, char S) {
             result = "Short";
         } else if (height >= 160 || height < 175) {
             result = "Normal";
-        } else if (height > 175) 
+        } else if (height >= 175) 
             result = "Tall";
     } else {
         if (height < 170){
             result = "Short";
         } else if (height >= 170 || height < 185) {
             result = "Normal";
-        } else if (height > 185) 
+        } else if (height >= 185) 
             result = "Tall";
     }
     return result;
